@@ -4,7 +4,7 @@ python-dotenv==0.19.1
 text2num==2.4.0
 beautifulsoup4==4.9.3
 google==3.0.0
-youtube_dl
+yt_dlp
 asyncio
 pafy
 Pillow

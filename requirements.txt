@@ -1,4 +1,4 @@
--U git+https://github.com/Rapptz/discord.py
+git+https://github.com/Rapptz/discord.py
 googlesearch_python==1.0.1
 python-dotenv==0.19.1
 text2num==2.4.0

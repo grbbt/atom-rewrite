@@ -8,3 +8,5 @@ youtube_dl
 asyncio
 discord
 pafy
+pillow
+datetime

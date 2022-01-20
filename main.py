@@ -195,4 +195,4 @@ async def hehehe(ctx, payload=None, sub=None, *args):
 
 
 
-bot.run(os.getenv("HIDDEN_TOKEN"))
+bot.run('ODk1NjY4NDg2NjExODI0NjUw.YV76Rw.N749sCMIKV3Zrsti6tZ27TTQrA0')

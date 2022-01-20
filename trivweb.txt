@@ -1,0 +1,298 @@
+<html>
+<head>
+	<title>The Random Trivia Generator</title>
+	<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW" />
+	<META NAME="description" CONTENT="random trivia facts" />
+	<META NAME="keywords" CONTENT="trivia, random trivia, facts, random facts, fun trivia, trivia questions, best trivia questions, trivia questions and answers, random quiz, pub quiz, free quiz" />
+	<style type="text/css">
+       a {text-decoration:none;}
+	</style>
+</head>
+<body>
+<table border=0 cellpadding=2 align="center">
+<col width=150>
+<col width=525>
+<col width=325>
+<tr> 
+	<td bgcolor="#CCCCCC" align="center"><b>Question Number</b></td>
+	<td bgcolor="#CCCCCC" align="center"><b>Question</b></td>
+	<td bgcolor="#CCCCCC" align="center"><b>Answer</b></td>
+</tr>
+
+<center><h2><a href="http://www.randomtriviagenerator.com/">The Random Trivia Generator</a></h2></center>
+
+
+<tr>
+			<td align="center" height="50"><b>1.</b></td>
+			<td align="left"><a href="question_a.php?q=1566">Venetian painter Jacopo Robusti was better known by what name?</a></td>
+			<td align="left">Tintoretto</td>
+			</tr>
+<tr>
+			<td align="center" height="50"><b>2.</b></td>
+			<td align="left"><a href="question_g.php?q=239">What is the world's smallest country?</a></td>
+			<td align="left">Vatican City state</td>
+			</tr>
+<tr>
+			<td align="center" height="50"><b>3.</b></td>
+			<td align="left"><a href="question_e.php?q=4049">What do the prisoners call the escape tunnels in the film "The Great Escape"?</a></td>
+			<td align="left">Tom, Dick and Harry</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>4.</b></td>
+			<td align="left"><a href="question_h.php?q=1201">In 1995, who became the first Republican Speaker of the House in 40 years?</a></td>
+			<td align="left">Newt Gingrich</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>5.</b></td>
+			<td align="left"><a href="question_s.php?q=1811">What caused fjords?</a></td>
+			<td align="left">Glaciers</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>6.</b></td>
+			<td align="left"><a href="question_m.php?q=777">What are the four railways in the standard version of Monopoly?</a></td>
+			<td align="left">The B&O, Pennsylvania, Reading, Short Line</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>7.</b></td>
+			<td align="left"><a href="question_e.php?q=3235">What album spent a record 741 weeks on Billboard's Top 200 Albums chart?</a></td>
+			<td align="left">Dark Side of the Moon</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>8.</b></td>
+			<td align="left"><a href="question_m.php?q=2962">In the video game "Darksiders", which of the Four Horsemen of the Apocalypse do you play?</a></td>
+			<td align="left">War</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>9.</b></td>
+			<td align="left"><a href="question_s.php?q=1259">Who was the first man to return safely from space?</a></td>
+			<td align="left">Yuri Gagarin</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>10.</b></td>
+			<td align="left"><a href="question_g.php?q=1556">Which European country replaced the Tolar with the Euro?</a></td>
+			<td align="left">Slovenia</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>Tie Breaker</b></td>
+			<td align="left"><a href="question_m.php?q=1358">What is the name given to the Cricketer's Year book, where all cricketing laws and scores are reported?</a></td>
+			<td align="left">Wisdens Almanac</td>			
+			</tr>
+
+<center>Press F5, or click <a href="javascript:location.reload(true)">refresh</a>, to get a new random quiz.</center>
+<center><a href="email_question.html">Contribute</a> | <a href="mailto:randomtriviagenerator@gmail.com">E-mail us trivia</a> | <a href="https://twitter.com/randomtrivia_">Twitter</a> and <a href="https://www.facebook.com/randomtriviagenerator">Facebook</a> | <a href="http://old.randomtriviagenerator.com/random_pub_quiz.php">Randomly Generated Quiz</a> | <a href="http://www.randomtriviablog.com/" target="_blank">Blog</a> |  <a href="https://itunes.apple.com/us/app/random-trivia-generator/id723770076?mt=8" target="_blank">iOS</a> and <a href="https://play.google.com/store/apps/details?id=com.randomtriviagenerator.randomtrivia" target="_blank">Android</a> apps | <a href="http://old.randomtriviagenerator.com/tags.php">Sub-categories</a> <br />
+<br />
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- RandomTop -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:15px"
+     data-ad-client="ca-pub-6692682625678048"
+     data-ad-slot="2561438420"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<br />
+
+<h3>Round 1</h3>
+
+</table>
+
+<br />
+
+<!-- Woopra Code Start -->
+
+<script type="text/javascript" src="//static.woopra.com/js/woopra.v2.js"></script>
+<script type="text/javascript">
+woopraTracker.track();
+</script>
+<!-- Woopra Code End -->
+<!-- <br /> -->
+<center>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-6692682625678048";
+/* RandomTrivia */
+google_ad_slot = "4407839167";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</center>
+
+<table border=0 cellpadding=2 align="center">
+<col width=150>
+<col width=525>
+<col width=325>
+<tr> 
+	<td bgcolor="#CCCCCC" align="center"><b>Question Number</b></td>
+	<td bgcolor="#CCCCCC" align="center"><b>Question</b></td>
+	<td bgcolor="#CCCCCC" align="center"><b>Answer</b></td>
+</tr>
+
+<tr>
+			<td align="center" height="50"><b>1.</b></td>
+			<td align="left"><a href="question_a.php?q=1474">In the nursery rhyme "This Little Piggy", what meat did the third little piggy eat?</a></td>
+			<td align="left">Roast beef</td>
+			</tr>
+<tr>
+			<td align="center" height="50"><b>2.</b></td>
+			<td align="left"><a href="question_g.php?q=1525">What country is home to Angel Falls?</a></td>
+			<td align="left">Venezuela</td>
+			</tr>
+<tr>
+			<td align="center" height="50"><b>3.</b></td>
+			<td align="left"><a href="question_e.php?q=1684">Which film mogul was famous for illogical sayings such as "include me out"?</a></td>
+			<td align="left">Sam Goldwyn</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>4.</b></td>
+			<td align="left"><a href="question_h.php?q=1654">The US Army history, who was "Uncle Billy"?</a></td>
+			<td align="left">William Tecumseh Sherman</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>5.</b></td>
+			<td align="left"><a href="question_s.php?q=398">A 12-sided polygon is known as what?</a></td>
+			<td align="left">Dodecagon</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>6.</b></td>
+			<td align="left"><a href="question_m.php?q=1286">What colour is the Ring of Death that signifies that your Xbox 360 is broken forever?</a></td>
+			<td align="left">Red</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>7.</b></td>
+			<td align="left"><a href="question_e.php?q=741">During WWII what material were the Oscars made of to conserve metal for the war effort?</a></td>
+			<td align="left">Plaster</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>8.</b></td>
+			<td align="left"><a href="question_m.php?q=12">How many numbered, colored balls are there in the standard billiards?</a></td>
+			<td align="left">Fifteen</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>9.</b></td>
+			<td align="left"><a href="question_s.php?q=2100">What kind of animal was the now extinct Dodo?</a></td>
+			<td align="left">Bird</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>10.</b></td>
+			<td align="left"><a href="question_g.php?q=54">Which continent are the Balkans a part of?</a></td>
+			<td align="left">Europe</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>Tie Breaker</b></td>
+			<td align="left"><a href="question_m.php?q=3481">What is the connection between Johnny Logan and Sean Sherrard?</a></td>
+			<td align="left">They are the same person</td>			
+			</tr>
+
+<br />
+
+<center><h3>Round 2</h3></center>
+
+</table>
+
+
+<!-- Third Round -->
+<center>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- RandomQuizBanner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-6692682625678048"
+     data-ad-slot="1307397627"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+
+<table border=0 cellpadding=2 align="center">
+<col width=150>
+<col width=525>
+<col width=325>
+<tr> 
+	<td bgcolor="#CCCCCC" align="center"><b>Question Number</b></td>
+	<td bgcolor="#CCCCCC" align="center"><b>Question</b></td>
+	<td bgcolor="#CCCCCC" align="center"><b>Answer</b></td>
+</tr>
+
+<tr>
+			<td align="center" height="50"><b>1.</b></td>
+			<td align="left"><a href="question_a.php?q=240">Who murders Nancy in "Oliver Twist"?</a></td>
+			<td align="left">Bill Sikes</td>
+			</tr>
+<tr>
+			<td align="center" height="50"><b>2.</b></td>
+			<td align="left"><a href="question_g.php?q=8">What tropic passes through Australia?</a></td>
+			<td align="left">The Tropic of Capricorn</td>
+			</tr>
+<tr>
+			<td align="center" height="50"><b>3.</b></td>
+			<td align="left"><a href="question_e.php?q=1958">What late night talk show's house band is Cleto & The Cletones?</a></td>
+			<td align="left">Jimmy Kimmel Live!</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>4.</b></td>
+			<td align="left"><a href="question_h.php?q=1113">What famous woman became known as "The Lady with the Lamp" during the Crimean War?</a></td>
+			<td align="left">Florence Nightingale</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>5.</b></td>
+			<td align="left"><a href="question_s.php?q=415">In what period of the Mesozoic era did dinosaurs first appear?</a></td>
+			<td align="left">Triassic</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>6.</b></td>
+			<td align="left"><a href="question_m.php?q=532">What is a spinnaker on a boat?</a></td>
+			<td align="left">Type of sail</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>7.</b></td>
+			<td align="left"><a href="question_e.php?q=501">What was Ward Cleaver's occupation on the TV show "Leave it to Beaver"?</a></td>
+			<td align="left">Accountant</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>8.</b></td>
+			<td align="left"><a href="question_m.php?q=1847">Hockey player Wayne Gretzky was born in what Canadian city?</a></td>
+			<td align="left">Brantford, Ontario</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>9.</b></td>
+			<td align="left"><a href="question_s.php?q=1885">Which mole-like mammal has given its name to a mean spirited or bad tempered woman?</a></td>
+			<td align="left">Shrew </td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>10.</b></td>
+			<td align="left"><a href="question_g.php?q=1614">In what country would you find the active volcano "Fuji"?</a></td>
+			<td align="left">Japan</td>			
+			</tr>
+<tr>
+			<td align="center" height="50"><b>Tie Breaker</b></td>
+			<td align="left"><a href="question_m.php?q=2402">How many players are there in a standard curling team?</a></td>
+			<td align="left">Four</td>			
+			</tr>
+
+<br />
+
+<center><h3>Round 3</h3></center>
+
+</table>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50915609-1', 'randomtriviagenerator.com');
+  ga('send', 'pageview');
+
+</script>
+
+
+<center><a href="privacy.html">Privacy Policy</a>
+
+</body>
+</html>

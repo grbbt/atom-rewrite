@@ -1,0 +1,10 @@
+discord.py==1.7.3
+googlesearch_python==1.0.1
+python-dotenv==0.19.1
+text2num==2.4.0
+beautifulsoup4==4.9.3
+google==3.0.0
+youtube_dl
+asyncio
+discord
+pafy

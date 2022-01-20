@@ -10,7 +10,7 @@ async def welcome(url=None, name=None, guild=None):
 
 
 
-    img = Image.open("cogs/src/und.png")
+    img = Image.open("cogs/src/Und.png")
     I1 = ImageDraw.Draw(img)
     custom = str(guild)
     cs = str(name)

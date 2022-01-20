@@ -10,3 +10,4 @@ discord
 pafy
 Pillow
 datetime
+dictpy

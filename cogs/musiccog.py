@@ -234,7 +234,7 @@ class Music(commands.Cog):
         """Connect to voice channel."""
         if not channel:
             #try:
-                channel = ctx.author.voice.channel
+            channel = ctx.author.voice.channel
             #except AttributeError:
                 #embed = discord.Embed(title="",
                                       #description="No channel to join. Please call `=join` from a voice channel.",
@@ -252,12 +252,12 @@ class Music(commands.Cog):
             except asyncio.TimeoutError:
                 raise VoiceConnectionError(f'Moving to channel: <{channel}> timed out.')
         else:
-            try:
-                await channel.connect()
-            except asyncio.TimeoutError:
-                raise VoiceConnectionError(f'Connecting to channel: <{channel}> timed out.')
-        if random.randint(0, 1) == 0:
-            await ctx.message.add_reaction('👍')
+            #try:
+        await channel.connect()
+            #except asyncio.TimeoutError:
+                #raise VoiceConnectionError(f'Connecting to channel: <{channel}> timed out.')
+        #if random.randint(0, 1) == 0:
+            #await ctx.message.add_reaction('👍')
         await ctx.send(f'**Joined `{channel}`**')
 
     @commands.command(name='play', aliases=['sing', 'p'], description="streams music")

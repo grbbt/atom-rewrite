@@ -27,7 +27,7 @@ async def welcome(url=None, name=None, guild=None):
             fs1 = fs1
             break
         else:
-            fs2 -= 4.1
+            fs2 -= 5
 
     font1 = ImageFont.truetype("cogs/src/Uni Sans Heavy.otf", size=int(fs1))
     font = ImageFont.truetype("cogs/src/Uni Sans Heavy.otf", size=int(fs2))

@@ -1,5 +1,4 @@
 asyncio
-io
 datetime
 requests
 yt_dlp

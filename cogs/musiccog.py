@@ -233,14 +233,14 @@ class Music(commands.Cog):
     async def connect_(self, ctx, *, channel: discord.VoiceChannel = None):
         """Connect to voice channel."""
         if not channel:
-            try:
+            #try:
                 channel = ctx.author.voice.channel
-            except AttributeError:
-                embed = discord.Embed(title="",
-                                      description="No channel to join. Please call `=join` from a voice channel.",
-                                      color=discord.Color.green())
-                await ctx.send(embed=embed)
-                raise InvalidVoiceChannel('No channel to join. Please either specify a valid channel or join one.')
+            #except AttributeError:
+                #embed = discord.Embed(title="",
+                                      #description="No channel to join. Please call `=join` from a voice channel.",
+                                      #color=discord.Color.green())
+                #await ctx.send(embed=embed)
+                #raise InvalidVoiceChannel('No channel to join. Please either specify a valid channel or join one.')
 
         vc = ctx.voice_client
 

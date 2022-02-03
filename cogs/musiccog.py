@@ -253,7 +253,7 @@ class Music(commands.Cog):
                 raise VoiceConnectionError(f'Moving to channel: <{channel}> timed out.')
         else:
             #try:
-        await channel.connect()
+            await channel.connect()
             #except asyncio.TimeoutError:
                 #raise VoiceConnectionError(f'Connecting to channel: <{channel}> timed out.')
         #if random.randint(0, 1) == 0:

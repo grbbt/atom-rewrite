@@ -247,10 +247,10 @@ class Music(commands.Cog):
         if vc:
             if vc.channel.id == channel.id:
                 return
-            try:
-                await vc.move_to(channel)
-            except asyncio.TimeoutError:
-                raise VoiceConnectionError(f'Moving to channel: <{channel}> timed out.')
+            #try:
+            await vc.move_to(channel)
+            #except asyncio.TimeoutError:
+                #raise VoiceConnectionError(f'Moving to channel: <{channel}> timed out.')
         else:
             #try:
             await channel.connect()

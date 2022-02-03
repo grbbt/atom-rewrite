@@ -4,8 +4,6 @@ requests
 yt_dlp
 intertools
 random
-sys
-traceback
 functools
 async_timeout
 git+https://github.com/Rapptz/discord.py

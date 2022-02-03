@@ -2,7 +2,6 @@ asyncio
 datetime
 requests
 yt_dlp
-intertools
 random
 functools
 async_timeout

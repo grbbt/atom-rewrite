@@ -2,7 +2,6 @@ asyncio
 datetime
 requests
 yt_dlp
-random
 functools
 async_timeout
 git+https://github.com/Rapptz/discord.py

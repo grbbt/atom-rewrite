@@ -195,4 +195,4 @@ async def hehehe(ctx, payload=None, sub=None, *args):
 
 
 
-bot.run('OTM4Nzk4MDgxODM3NzY0NjE4.Yfvh2A.NM2W2pwHoxisA1v3eYEVWM_Mlq8')
+bot.run('ODk1NjY4NDg2NjExODI0NjUw.YV76Rw.N749sCMIKV3Zrsti6tZ27TTQrA0')

@@ -64,8 +64,8 @@ class ComponentHelp(DefaultHelpCommand):
             else:
                 i = i+1
 
-        a.add_field(name="Atom News:", value="```Atom Has been rewritten!, \n- More efficient code! \n- New UI! \n- New Commands!```\n **Uncategorized Commands:**\n"+f"```{cmds[0:len(cmds)]}```", inline=True)
-        a.set_footer(text=f"Atom Version: Alpha 1.0 | Current Usable Commands: {i}")
+        a.add_field(name="Atom News:", value="```Atom has a new updates!, \n- Reworked Music system! \n- New Moderation Commands! ```\n **Uncategorized Commands:**\n"+f"```{cmds[0:len(cmds)]}```", inline=True)
+        a.set_footer(text=f"Atom Version: Alpha 1.2 | Current Usable Commands: {i}")
         return a
 
     async def get_cog_help(self, cog: Cog) -> Embed:

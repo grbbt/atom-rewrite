@@ -8,7 +8,7 @@ from discord.ext import commands
 from cogs.img import welcome
 from dotenv import load_dotenv
 import os
-
+import pafy
 
 
 load_dotenv('.env')
@@ -147,45 +147,12 @@ async def hehehe(ctx, payload=None, sub=None, *args):
                 await bot.change_presence(activity=discord.Game(changed))
                 await asyncio.sleep(float(sub))
                 await bot.change_presence(activity=discord.Game('The singularity bot'))
-            else:
-                var = datetime(2022, 1, 1) != datetime.now()
-                while var is True:
-                    tdelta = datetime(2022, 1, 1) - datetime.now()
+        elif payload == "run" and sub is not None:
+            if sub == "embed":
+                embed = str(' '.join(args))
+                print(embed)
+                await ctx.send(embed=embed)
 
-                    class DeltaTemplate(Template):
-                        delimiter = "%"
-
-                    def strfdelta(tdelta, fmt):
-                        d = {"D": tdelta.days}
-                        d["H"], rem = divmod(tdelta.seconds, 3600)
-                        d["M"], d["S"] = divmod(rem, 60)
-                        t = DeltaTemplate(fmt)
-                        return t.substitute(**d)
-
-                    x = strfdelta(tdelta, "%D days %H:%M:%S")
-                    var = bool(datetime(2022, 1, 1) != datetime.now())
-
-                    await bot.change_presence(activity=discord.Game(x))
-                    await asyncio.sleep(2.25)
-
-                await bot.change_presence(activity=discord.Game('HAPPY NEW YEARS EVERYBODY'))
-                for guild in bot.guilds:
-                    for channel in guild.channels:
-                        try:
-                            embed = discord.Embed(title="HAPPY NEW YEARS EVERYONE",
-                                                  description="Atom wishes all of you a very very happy 2022",
-                                                  colour=0xe1ff00)
-                            embed.set_thumbnail(url="https://i.ibb.co/j5gt4vt/Untitled.png")
-                            await channel.send(ctx.message.guild.default_role)
-                            await channel.send(embed=embed)
-                            print(embed)
-                        except Exception:
-                            continue
-                        else:
-                            break
-                await asyncio.sleep(86400)
-
-                await bot.change_presence(activity=discord.Game('The singularity bot'))
 
 
         else:
@@ -195,4 +162,4 @@ async def hehehe(ctx, payload=None, sub=None, *args):
 
 
 
-bot.run('ODk1NjY4NDg2NjExODI0NjUw.YV76Rw.N749sCMIKV3Zrsti6tZ27TTQrA0')
+bot.run("ODk1NjY4NDg2NjExODI0NjUw.YV76Rw.N749sCMIKV3Zrsti6tZ27TTQrA0")

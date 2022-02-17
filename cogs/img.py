@@ -10,7 +10,7 @@ async def welcome(url=None, name=None, guild=None):
 
 
 
-    img = Image.open("cogs/src/Und.png")
+    img = Image.open("cogs/src/und.png")
     I1 = ImageDraw.Draw(img)
     custom = str(guild)
     cs = str(name)
@@ -27,7 +27,7 @@ async def welcome(url=None, name=None, guild=None):
             fs1 = fs1
             break
         else:
-            fs2 -= 5
+            fs2 -= 4.1
 
     font1 = ImageFont.truetype("cogs/src/Uni Sans Heavy.otf", size=int(fs1))
     font = ImageFont.truetype("cogs/src/Uni Sans Heavy.otf", size=int(fs2))

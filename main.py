@@ -37,7 +37,7 @@ async def on_message(message):
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game('The singularity bot'))
+    await bot.change_presence(activity=discord.Game('\U0001f1fa\U0001f1e6'))
     print('Connected to bot: {}'.format(bot.user.name))
     print('Bot ID: {}'.format(bot.user.id))
     for cog in bot.cogs:

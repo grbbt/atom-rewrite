@@ -37,7 +37,7 @@ async def on_message(message):
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game('🇺🇦'))
+    await bot.change_presence(activity=discord.Game('\🇺🇦'))
     print('Connected to bot: {}'.format(bot.user.name))
     print('Bot ID: {}'.format(bot.user.id))
     for cog in bot.cogs:

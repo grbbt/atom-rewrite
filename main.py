@@ -9,6 +9,7 @@ from cogs.img import welcome
 from dotenv import load_dotenv
 import os
 import pafy
+import cogs.logging as lo
 
 
 load_dotenv('.env')
@@ -23,7 +24,16 @@ scam = page.json()
 
 @bot.event
 async def on_message(message):
-    await bot.process_commands(message)
+    try:
+        author = message.author.id
+        guild = message.guild.id
+        v = lo.query(int(guild), 'blacklists')
+        if author in v:
+            pass
+        else:
+            await bot.process_commands(message)
+    except:
+        pass
     res = [ele for ele in scam if (ele in message.content)]
     if bool(res) is True:
         try:
@@ -37,7 +47,7 @@ async def on_message(message):
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Game('godspeed kyiv'))
+    await bot.change_presence(activity=discord.Game("godspeed"))
     print('Connected to bot: {}'.format(bot.user.name))
     print('Bot ID: {}'.format(bot.user.id))
     for cog in bot.cogs:
@@ -82,7 +92,7 @@ async def on_member_join(member):
 
 
 bot.load_extension('cogs.general')
-bot.load_extension('cogs.server')
+bot.load_extension('moderation-update.server')
 bot.load_extension('cogs.musiccog')
 bot.load_extension('cogs.help')
 
@@ -124,18 +134,7 @@ async def hehehe(ctx, payload=None, sub=None, *args):
             embed = discord.Embed(title='TEST', description='TEST')
             await dm.send(embed=embed)
 
-        elif payload == "save" and sub is not None:
-            if sub == "write":
-                try:
-                    await ctx.message.delete()
-                except:
-                    pass
-                embed = discord.Embed(title="Saved Command", description=f"`{str(' '.join(args))}`")
-                await dm.send(embed=embed)
-                f = open("saved.txt", "w")
-                f.write(str(' '.join(args)))
-        elif payload == "launch":
-            print(ctx.message.author.avatar)
+
 
         elif payload == "change" and sub is not None:
             if sub != "countdown":
@@ -161,5 +160,5 @@ async def hehehe(ctx, payload=None, sub=None, *args):
         await ctx.send(f'I am afraid I cannot do that {ctx.message.author}')
 
 
-
-bot.run("ODk1NjY4NDg2NjExODI0NjUw.YV76Rw.N749sCMIKV3Zrsti6tZ27TTQrA0")
+bot.run('OTM4Nzk4MDgxODM3NzY0NjE4.Yfvh2A.NM2W2pwHoxisA1v3eYEVWM_Mlq8')
+# bot.run("ODk1NjY4NDg2NjExODI0NjUw.YV76Rw.N749sCMIKV3Zrsti6tZ27TTQrA0")

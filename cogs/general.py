@@ -198,29 +198,33 @@ class Fun(commands.Cog):
         await ctx.send('Tic Tac Toe: X goes first', view=TicTacToe())
 
     @commands.command(allias='cats')
-    async def kitties(self, ctx, tag=None):
+    async def kitties(self, ctx, *args):
         """Cats are freaking adorable"""
         await ctx.trigger_typing()
-        if tag is None:
-            url = cmodule.get_random_cat()
+        if args is None or str(args) == "()":
+            url = cmodule.cat()
             embed = discord.Embed(title="You ask and you shall receive CATS",
                                   description="Here is a random picture of a cat, do =kitties (tag) to get more!",
                                   colour=0xfb0064)
             embed.set_image(url=url)
             await ctx.send(embed=embed)
         else:
-            url = cmodule.get_cat_tag(tag)
+            tag = ""
+            for arg in args:
+                tag = tag+arg+" "
+            url = cmodule.cat(tag)
             if url is not False:
                 embed = discord.Embed(title="You ask and you shall receive CATS",
-                                      description=f"Here is and adorable specimen of a {str(tag)} cat",
+                                      description=f"Here is an adorable cat `Tag: {str(tag)}`",
                                       colour=0xfb0064)
                 embed.set_image(url=url)
                 await ctx.send(embed=embed)
             else:
+                url = cmodule.cat()
                 embed = discord.Embed(title="Aw man",
                                       description="It seems like your query didn't bring up any results that is so sad on so many levels",
                                       colour=0xfb0064)
-                embed.set_image(url="https://cataas.com/cat/sad")
+                embed.set_image(url=url)
                 await ctx.send(embed=embed)
 
     @commands.command(allias='dogs')

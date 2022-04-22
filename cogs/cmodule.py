@@ -1,33 +1,90 @@
-import re
-import requests
-import random
+import requests as r
+import difflib
 
-catass = "https://cataas.com/"
 
-def get_random_cat():
 
-    htm = requests.get(url=f"{catass}api/cats")
-    html = str(htm.content)
-    x = re.findall(r'id":(.+?)"', html)
-    f = open('asd.txt', 'w')
-    f.write(str(htm.content))
-    y = []
-    for i in x:
-        o = str(i).replace('"', '')
-        y.append(o)
+base_url = "https://api.thecatapi.com/v1/images/search"
+CATegories = "https://api.thecatapi.com/v1/categories"
+breeds = "https://api.thecatapi.com/v1/breeds"
 
-    ranid = y[random.randint(1, 150)]
-    url = f'{catass}cat/{ranid}'
+
+
+def check_cate(sample="None"):
+    page = r.get(CATegories)
+    pagelist = page.json()
+    names = []
+    sample = sample.lower()
+    for category in pagelist:
+        name = category.get('name')
+        names.append(name)
+
+    result = difflib.get_close_matches(sample, names)
+    for category1 in pagelist:
+        if category1.get('name') == str(result)[2:-2]:
+            return category1.get('id')
+        else:
+            continue
+
+
+def check_breed(sample="None"):
+    sample = sample.lower()
+    names = []
+    page = r.get(breeds)
+    pagelist = page.json()
+    for cats in pagelist:
+        names.append(cats.get('name'))
+    result = difflib.get_close_matches(sample, names)
+    for cat1 in pagelist:
+        if cat1.get('name') == str(result)[2:-2]:
+            return cat1.get('id')
+        else:
+            continue
+
+
+
+
+def get_cat(url=None):
+    if url is not False:
+        page = r.get(url)
+        page_dict = page.json()[0]
+        image = page_dict.get("url")
+        return image
+    else:
+        return False
+
+
+
+def specify(query=None):
+
+    cate = check_cate(query)
+    breed = check_breed(query)
+
+    if cate or breed is not None:
+        if cate is not None:
+            url = f"https://api.thecatapi.com/v1/images/search?category_ids={cate}"
+        else:
+            pass
+        if breed is not None:
+            url = f"https://api.thecatapi.com/v1/images/search?breed_ids={breed}"
+        else:
+            pass
+    else:
+        url = None
 
     return url
 
-def get_cat_tag(tag):
-    url = f"{catass}cat/{tag}"
-    htm = requests.get(url=url)
-    html = str(htm.content)
-    if str(html).replace("'", "") == 'b':
-        return False
+
+def cat(tags=None):
+    if tags is None:
+        url = base_url
     else:
-        return url
+        url = specify(tags)
 
+    if url is None:
+        url = False
+    else:
+        pass
 
+    image = get_cat(url)
+
+    return image
